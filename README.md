@@ -18,6 +18,6 @@ Configure heatlamp/ansible by setting the following environment variables in the
 
 `HEATLAMP_ANSIBLE_MODULES`: Filesystem path, relative to the repository root, of any custom Ansible modules to include in the execution. *(Default: none)*
 
-`HEATLAMP_ANSIBLE_GROUPS`: Comma-separated list of host groups to inject `localhost` into with the generated inventory file. This is useful for getting `host:` lines to match properly, even if you're only intending to run tasks that target the current host.
+`HEATLAMP_ANSIBLE_GROUPS`: Comma-separated list of host groups to inject `localhost` into with the generated inventory file. This is useful for getting `host:` lines to match properly, even if you're only intending to run tasks that target the current host. *(Default: none)*
 
-`HEATLAMP_ANSIBLE_TAGS`: Comma-separated list of tags used to constrain the playbook execution.
+`HEATLAMP_ANSIBLE_TAGS`: Comma-separated list of tags used to constrain the playbook execution. *(Default: none)*
