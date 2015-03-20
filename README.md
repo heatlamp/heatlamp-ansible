@@ -2,7 +2,9 @@
 
 *Execute an Ansible playbook to update your Docker containers*
 
-This is a specialization of [heatlamp/core] that uses Ansible to orchestrate updates. Each webhook execution will run the latest version of an Ansible playbook found in a git repository.
+[DockerHub](https://registry.hub.docker.com/u/heatlamp/ansible/) | [GitHub](https://github.com/heatlamp/heatlamp-ansible)
+
+This is a specialization of [heatlamp](https://github.com/heatlamp/heatlamp-core) that uses Ansible to orchestrate updates. Each webhook execution will run the latest version of an Ansible playbook found in a git repository.
 
 ## Configuration
 
