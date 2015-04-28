@@ -62,8 +62,8 @@ done
 
 AARGS=
 
-[ -z "${AMODULES}" ] && AARGS="${AARGS} -M ${AMODULES}"
-[ -z "${ATAGS}" ] && AARGS="${AARGS} --tags ${ATAGS}"
+[ ! -z "${AMODULES}" ] && AARGS="${AARGS} -M ${AMODULES}"
+[ ! -z "${ATAGS}" ] && AARGS="${AARGS} --tags ${ATAGS}"
 
 # Execute Ansible.
 
